@@ -1,6 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <loginPage msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" style="width: 200px;">
+  <loginPage/>
+  <!--
+    <a href="https://www.freepik.com/free-vector/schedule-calendar-flat-style_41411895.htm#query=calendar&position=7&from_view=keyword&track=sph">Image by juicy_fish</a> on Freepik
+  -->
 </template>
 
 <script>
