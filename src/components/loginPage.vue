@@ -3,8 +3,6 @@
     <h1>Welcome to Calenshare</h1>
     <h2>Enter link</h2>
     <form>
-      <label>Link</label>
-      <br>
       <input>
     </form>
     <h2>Create link</h2>
