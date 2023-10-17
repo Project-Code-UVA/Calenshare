@@ -3,10 +3,11 @@
     <h1>Welcome to Calenshare</h1>
     
     <form>
-      <input>
+      <input style="display: inline;" placeholder="Enter link here">
+      <button type="submit" id="submit-link">➔</button>
     </form>
-    <h2>Create link</h2>
-    <button>Create new link</button>
+    <p><i><small>———— or ————</small></i></p>
+    <button class="primary">🔗 Create new link</button>
   </div>
 </template>
 
