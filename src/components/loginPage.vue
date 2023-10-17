@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>Welcome to Calenshare</h1>
-    <h2>Enter link</h2>
+    
     <form>
       <input>
     </form>
