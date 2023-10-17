@@ -3,8 +3,8 @@
     <h1>Welcome to Calenshare</h1>
     
     <form>
-      <input style="display: inline;" placeholder="Enter link here">
-      <button type="submit" id="submit-link">➔</button>
+      <input placeholder="Enter link here">
+      <button type="submit" id="submit-link" aria-label="Open this link" title="Open this link">➔</button>
     </form>
     <p class="or-separator"><i>———— or ————</i></p>
     <button class="primary">🔗 Create new link</button>
