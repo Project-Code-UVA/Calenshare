@@ -29,7 +29,7 @@
         color: white;
         border: 2px solid var(--navy-blue); /* TODO: make outlines consistent with all elements */
         border-radius: var(--border-radius);
-        border-bottom-left-radius: 2px;
+        border-bottom-left-radius: 2px; /* TODO: add some logic so that adding more buttons/inputs adjusts these numbers automatically */
         border-top-left-radius: 2px;
         padding: 10px;
         margin-right: 2px;
