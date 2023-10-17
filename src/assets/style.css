@@ -25,7 +25,7 @@
     }
     button#submit-link {
         font-weight: 700;
-        background-color: var(--navy-blue);
+        background-color: var(--navy-blue); /* TODO: make this a lighter shade */
         color: white;
         border: 2px solid var(--navy-blue); /* TODO: make outlines consistent with all elements */
         border-radius: var(--border-radius);
