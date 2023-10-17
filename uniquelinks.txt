@@ -1,0 +1,20 @@
+To generate unique links:
+
+1. Have the server-side generate a random number.
+2. Have the server call the database and check to see if the number has already been taken using binary search. -- O(log n)
+    If taken, generate new random number (do-while loop).
+    If not taken, proceed.
+3. Encode that number in base 64 (other bases are also OK):
+    0-9, Capital Letters, Lowercase Letters, -, _
+4. Give the number in base 64 as the link.
+5. Insert the new number into the list of "taken" numbers so that they remain in ascending order. -- O(n)
+
+Justification:
+This system is broadly based on YouTube's link generation system. Developing a "counting" methodology
+is not feasible for if multiple people want to create links at the same time. Random generation solves
+this issue. "Counting" or developing an algorithm for unique generation also poses a massive security
+and privacy risk. Users who know the algorithm may be able to view calendars they are not supposed to,
+or at least know of their existence. 
+
+This Tom Scott video is good if you wish to validate the above methods: 
+https://www.youtube.com/watch?v=gocwRvLhDf8
