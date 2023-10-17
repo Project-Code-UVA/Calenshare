@@ -7,7 +7,7 @@
       <button type="submit" id="submit-link" aria-label="Open this link" title="Open this link">➔</button>
     </form>
     <p class="or-separator"><i>———— or ————</i></p>
-    <button class="primary">🔗 Create new link</button>
+    <button class="primary"><span aria-hidden>🔗</span> Create new link</button>
   </div>
 </template>
 
