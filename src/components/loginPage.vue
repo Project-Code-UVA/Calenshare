@@ -6,7 +6,7 @@
       <input style="display: inline;" placeholder="Enter link here">
       <button type="submit" id="submit-link">➔</button>
     </form>
-    <p><i><small>———— or ————</small></i></p>
+    <p class="or-separator"><i>———— or ————</i></p>
     <button class="primary">🔗 Create new link</button>
   </div>
 </template>

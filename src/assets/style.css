@@ -12,6 +12,9 @@
     text-align: center;
     color: var(--navy-blue);
     margin-top: 60px;
+    .or-separator {
+        color: gray;
+    }
     input {
         border: 2px solid gray;
         border-radius: var(--border-radius);
