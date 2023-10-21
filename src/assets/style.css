@@ -47,6 +47,10 @@ input {
     border-bottom-left-radius: var(--small-border-radius);
 }
 
+.between-left-and-right {
+    border-radius: var(--small-border-radius);
+}
+
 button {
     box-sizing: border-box;
     font-size: 1rem;
