@@ -56,8 +56,14 @@ button {
     padding: 10px;
     margin-left: 2px;
     margin-right: 2px;
+    transition: background-color .2s;
 }
 
 button:hover {
+    background-color: var(--accent-color-light);
+}
+
+button:focus {
+    outline: var(--accent-color-light) dashed 1px; /* could be hard to see for some users */
     background-color: var(--accent-color-light);
 }
