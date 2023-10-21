@@ -7,13 +7,6 @@
 
 body {
     background-color: #fdfdfd;
-}
-
-* {
-    font-family: Avenir, 'Segoe UI', Helvetica, Arial, sans-serif;
-}
-
-#app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
