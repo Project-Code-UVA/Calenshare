@@ -21,6 +21,10 @@ body {
     margin-top: 60px;
 }
 
+* {
+    font-family: Avenir, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
 .or-separator {
     color: gray;
 }
