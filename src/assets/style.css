@@ -4,23 +4,27 @@
     --accent-color: #2c3e50;
     --accent-color-light: hsl(210, 29%, 35%);
 }
+
 body {
     background-color: #fdfdfd;
 }
+
 * {
     font-family: Avenir, 'Segoe UI', Helvetica, Arial, sans-serif;
 }
+
 #app {
-    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: var(--accent-color);
     margin-top: 60px;
 }
+
 .or-separator {
     color: gray;
 }
+
 input {
     border: 2px solid lightgray;
     border-radius: var(--border-radius);
@@ -28,15 +32,17 @@ input {
     font-size: 1rem;
     margin-right: 2px;
 }
-    
+
 .left-side {
     border-bottom-right-radius: var(--small-border-radius);
     border-top-right-radius: var(--small-border-radius);
 }
+
 .right-side {
     border-top-left-radius: var(--small-border-radius);
     border-bottom-left-radius: var(--small-border-radius);
 }
+
 button {
     box-sizing: border-box;
     font-size: 1rem;
@@ -49,6 +55,7 @@ button {
     margin-left: 2px;
     margin-right: 2px;
 }
+
 button:hover {
     background-color: var(--accent-color-light);
 }
