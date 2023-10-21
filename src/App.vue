@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" style="width: 200px;">
+  <img alt="Calenshare logo" src="./assets/logo.png" aria-hidden style="width: 200px;">
   <loginPage/>
   <calendarCreate/>
   <!--
