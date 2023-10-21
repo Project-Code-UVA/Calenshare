@@ -3,10 +3,11 @@
     --small-border-radius: 2px;
     --accent-color: #2c3e50;
     --accent-color-light: hsl(210, 29%, 35%);
+    --bg-color: #fdfdfd;
 }
 
 body {
-    background-color: #fdfdfd;
+    background-color: var(--bg-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
