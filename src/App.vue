@@ -1,23 +1,15 @@
 <template>
-  <img alt="Calenshare logo" src="./assets/logo.png" aria-hidden style="width: 200px;">
-  <loginPage/>
-  <calendarCreate/>
-  <!--
-    Source:
-    <a href="https://www.freepik.com/free-vector/schedule-calendar-flat-style_41411895.htm#query=calendar&position=7&from_view=keyword&track=sph">Image by juicy_fish</a> on Freepik
-  -->
+  <div>
+    <router-link to="/">Home</router-link> | 
+    <router-link to="/create">Create</router-link>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import loginPage from './components/loginPage.vue'
-import calendarCreate from './components/calendarCreate.vue'
 import './assets/style.css'
 
 export default {
   name: 'App',
-  components: {
-    loginPage,
-    calendarCreate
-  }
 }
 </script>
