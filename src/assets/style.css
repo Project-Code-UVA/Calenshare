@@ -1,7 +1,7 @@
 :root {
     --border-radius: 16px;
     --small-border-radius: 2px;
-    --accent-color: #2c3e50;
+    --accent-color: hsl(210, 30%, 24%);
     --accent-color-light: hsl(210, 29%, 35%);
     --bg-color: #fdfdfd;
 }
