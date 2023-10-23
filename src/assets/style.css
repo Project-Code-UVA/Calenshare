@@ -64,6 +64,6 @@ button:hover {
 }
 
 button:focus {
-    outline: var(--accent-color-light) dashed 1px; /* could be hard to see for some users */
+    outline: blue dashed 2px; /* could be hard to see for some users */
     background-color: var(--accent-color-light);
 }
