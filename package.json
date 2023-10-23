@@ -1,6 +1,6 @@
 {
-  "name": "calendar",
-  "version": "0.1.0",
+  "name": "calenshare",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
