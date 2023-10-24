@@ -1,5 +1,8 @@
+# v0.1.2 (October 24th):
+- Added sidebar functionality.
+
 # v0.1.1 (October 23rd): 
-- Main page now styled with CSS
+- Main page now styled with CSS.
 - Vue routing set up between pages.
 
 # v0.1.0 (October 8th): 
