@@ -4,8 +4,9 @@
     <h1>Welcome to Calenshare</h1>
     
     <form>
-      <input class="left-side" placeholder="Enter link here"> <!-- TODO: add screen-reader friendly placeholder -->
-      <button type="submit" class="right-side" title="Open this link"><i class="fas fa-arrow-right"></i><span class="fa-sr-only">Open this link</span></button>
+      <label for="link-box" class="fa-sr-only">Link: </label>
+      <input id="link-box" class="left-side" placeholder="Enter link here">
+      <button type="submit" class="right-side" title="Open Link"><i class="fas fa-arrow-right" aria-hidden="true"></i><span class="fa-sr-only">Open Link</span></button>
     </form>
     <p class="or-separator"><i>———— or ————</i></p>
     <button><i class="fas fa-link" aria-hidden="true"></i>&nbsp;&nbsp;Create new link</button> 
