@@ -13,12 +13,12 @@ export default {
 
 <template>
     <div class = "sidebar" :style="{width : sidebarWidth}">
-        <span
+        <button
             class="collapse-icon"
             @click="toggleSidebar"
         >
             <i class="fas fa-bars" />
-        </span>
+    </button>
 
         <h2>
             <span v-if="collapsed">

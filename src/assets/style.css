@@ -59,6 +59,10 @@ button {
     transition: background-color .2s;
 }
 
+button[disabled] {
+    background-color: var(--accent-color-light); /* might not be that obvious */
+}
+
 button:hover {
     background-color: var(--accent-color-light);
 }

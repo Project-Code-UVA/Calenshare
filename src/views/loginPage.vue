@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img alt="Calenshare Logo" src="../assets/logo.png" aria-hidden style="width: 200px;">
+    <img alt="Calenshare Logo" src="../assets/logo.png" aria-hidden="true" style="width: 200px;">
     <h1>Welcome to Calenshare</h1>
     
     <form>
