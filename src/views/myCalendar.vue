@@ -6,7 +6,7 @@
   
 <script>
   export default {
-    name: 'calendarCreate',
+    name: 'myCalendar',
     props: {
       
     }
