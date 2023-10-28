@@ -1,13 +1,8 @@
 <template>
   <sidebar/>
-  <!-- <nav :style = "{'margin-left': sidebarWidth}">
-    <router-link to="/">Home</router-link> | 
-    <router-link to="/create">Create</router-link>
-  </nav> -->
   <div :style = "{'margin-left': sidebarWidth}">
     <router-view></router-view>
   </div>
-
 </template>
 
 <script>

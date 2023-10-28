@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
-import loginPage from "../views/loginPage.vue"; // Note the corrected relative path
-import calendarCreate from "../views/calendarCreate.vue"; // Note the corrected relative path
+import homePage from "../views/homePage.vue"; // Note the corrected relative path
+import myCalendar from "../views/myCalendar.vue"; // Note the corrected relative path
 
 const routes = [
     {
         path: '/',
-        name: 'loginPage',
-        component: loginPage
+        name: 'homePage',
+        component: homePage
     },
 
     {
-        path: '/create',
-        name: 'calendarCreate',
-        component: calendarCreate
+        path: '/calendar',
+        name: 'myCalendar',
+        component: myCalendar
     }
 ];
 

@@ -28,7 +28,7 @@ export default {
         </h2>
 
         <sidebarLinks to="/" icon="fas fa-home">Home</sidebarLinks>
-        <sidebarLinks to="/create" icon="fas fa-calendar">Calendar</sidebarLinks>
+        <sidebarLinks to="/calendar" icon="fas fa-calendar">Calendar</sidebarLinks>
     </div>
 </template>
 
